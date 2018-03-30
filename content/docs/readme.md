@@ -4,6 +4,10 @@ date: 2018-03-30T12:12:43-07:00
 showDate: false
 ---
 
+# Glossary
+**Thought**  
+A blog post.
+
 # Shortcodes
 ### Large block image:
 \{\{< post-image "/path/to/image" ext >}}
