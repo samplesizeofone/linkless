@@ -9,10 +9,10 @@ showDate: false
 A blog post.
 
 # Shortcodes
-### Large block image:
+### Large block image
 \{\{< post-image "/path/to/image" ext >}}
 
-#### Two files should be present:
+#### Two files should be present
 /path/to/image.ext  
 /path/to/image@2x.ext
 
