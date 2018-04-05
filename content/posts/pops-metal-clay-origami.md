@@ -2,7 +2,7 @@
 title: "POPS Metal Clay Origami"
 date: 2018-03-27T07:16:22-07:00
 showDate: false
-draft: true
+draft: false
 tags: []
 ---
 {{< post-image "/pops-metal-clay-origami/origami" jpg >}}
@@ -25,7 +25,7 @@ Be sure you are very comfortable folding a crane or lily from memory, since thos
 
 The silver clay sheets we'll be working with are a bit like folding a very limp, thin leather or vinyl sheets and are 6cm by 6cm, so it's more difficult than standard origami paper. But if you go slowly and carefully you'll likely get something nice in the end.
 
-You'll have ____ hours, so there's time for several models.
+You'll have (TBD) hours, so there's time for several models.
 
 # Tips for working with metal clay
 {{< post-image "/pops-metal-clay-origami/working-with-metal-clay" jpg >}}
@@ -55,4 +55,4 @@ You'll have ____ hours, so there's time for several models.
 
 Recommended source: [Cool Tools](http://cooltools.us) (the search feature is your friend here).
 
-We'll be doing a bulk order this ____, ____, for people who want to avoid shipping or don't want to order themselves. If you're interested in participating in the bulk order, please email me at tyler@linkless.org .
+We'll be doing a bulk order this (TBD) for people who want to avoid shipping or don't want to order themselves. If you're interested in participating in the bulk order, please email me at tyler@linkless.org .
