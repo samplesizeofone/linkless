@@ -29,6 +29,7 @@ You'll have ____ hours, so there's time for several models.
 
 # Tips for working with metal clay
 {{< post-image "/pops-metal-clay-origami/working-with-metal-clay" jpg >}}
+
 * Don't get it wet. Someone tried this briefly and the metal clay started to come apart quite immediately.
 * Keep vermiculite out of the spaces in your origami when preping it to be fired. Vermiculite is little granuals that support your origami during firing so it keeps it's shape.
 * You'll be able to shape the origami some post firing. But keep in mind the silver is very thin and can break. Best to do as much shaping ahead of time as possible.
@@ -55,7 +56,3 @@ You'll have ____ hours, so there's time for several models.
 Recommended source: [Cool Tools](http://cooltools.us) (the search feature is your friend here).
 
 We'll be doing a bulk order this ____, ____, for people who want to avoid shipping or don't want to order themselves. If you're interested in participating in the bulk order, please email me at tyler@linkless.org .
-
-# Code of conduct
-
-TBD
