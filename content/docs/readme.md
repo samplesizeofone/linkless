@@ -18,3 +18,7 @@ A blog post.
 
 #### Example
 \{\{< post-image "/infinite-cranes-1/crane-tessellation-3d-grid" png >}}
+
+# TODO
+* Autoprocess images
+* Style "post images" for mobile and desktop
