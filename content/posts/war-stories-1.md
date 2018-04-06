@@ -12,7 +12,7 @@ Over the course of a single night, we were able to determine that Asheron's
 Call crashed on the Cyrix 686 because it didn't implement the RDTSC (Read
 Timestamp Counter) instruction supported by Intel chips. But thanks to someone
 fluent in French (and Google's primitive ability to do French to English word
-substitution), we found out that the RDTSC instrution was not necessarily
+substitution), we found out that the RDTSC instruction was not necessarily
 critical to a program's execution and could be patched with two no-ops (a no-op
 being a single byte instruction, and RDTSC spanning two).
 
