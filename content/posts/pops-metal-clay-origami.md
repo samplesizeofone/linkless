@@ -36,6 +36,7 @@ You'll have (TBD) hours, so there's time for several models.
 
 # Supply list
 {{< post-image "/pops-metal-clay-origami/supplies" jpg >}}
+
 ❏ Firing Dish - Fused Silica - 4" diameter ($6.90)  
 ❏ PMC Sheet - 5 gram - Silver Metal Clay - 6cm x 6cm Precious Metal Clay ($15.00 each)  
 ❏ Firing Media - Vermiculite - 1 oz ($2.95)
