@@ -4,8 +4,12 @@ date: 2018-03-27T07:16:22-07:00
 showDate: false
 draft: false
 tags: []
+resources:
+- src: "origami.jpg"
+- src: "supplies.jpg"
+- src: "working-with-metal-clay.jpg"
 ---
-{{< post-image "/pops-metal-clay-origami/origami" jpg >}}
+{{< post-image "origami.jpg" big >}}
 
 We'll be folding silver metal clay sheets into origami to be fired into solid silver origami!
 
@@ -28,14 +32,14 @@ The silver clay sheets we'll be working with are a bit like folding a very limp,
 You'll have (TBD) hours, so there's time for several models.
 
 # Tips for working with metal clay
-{{< post-image "/pops-metal-clay-origami/working-with-metal-clay" jpg >}}
+{{< post-image "working-with-metal-clay.jpg" small >}}
 
 * Don't get it wet. Someone tried this briefly and the metal clay started to come apart quite immediately.
 * Keep vermiculite out of the spaces in your origami when preping it to be fired. Vermiculite is little granuals that support your origami during firing so it keeps it's shape.
 * You'll be able to shape the origami some post firing. But keep in mind the silver is very thin and can break. Best to do as much shaping ahead of time as possible.
 
 # Supply list
-{{< post-image "/pops-metal-clay-origami/supplies" jpg >}}
+{{< post-image "supplies.jpg" small >}}
 
 ❏ Firing Dish - Fused Silica - 4" diameter ($6.90)  
 ❏ PMC Sheet - 5 gram - Silver Metal Clay - 6cm x 6cm Precious Metal Clay ($15.00 each)  

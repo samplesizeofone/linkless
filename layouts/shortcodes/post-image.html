@@ -1,1 +1,27 @@
-<img src="{{ .Get 0 }}.{{ .Get 1 }}" srcset="{{ .Get 0 }}@2x.{{ .Get 1}} 2x" id="big-image">
+{{ $sizeOpt := .Get 1 }}
+{{ if eq $sizeOpt "big" }}
+{{ .Scratch.Set "size" "800x800" }}
+{{ .Scratch.Set "size2x" "1600x1600" }}
+{{ else if eq $sizeOpt "medium" }}
+{{ .Scratch.Set "size" "600x400" }}
+{{ .Scratch.Set "size2x" "1200x800" }}
+{{ else if eq $sizeOpt "small" }}
+{{ .Scratch.Set "size" "400x300" }}
+{{ .Scratch.Set "size2x" "800x600" }}
+{{ else }}
+{{ .Scratch.Set "size" "800x800" }}
+{{ .Scratch.Set "size2x" "1600x1600" }}
+{{ end }}
+
+{{ $size := .Scratch.Get "size" }}
+{{ $size2x := .Scratch.Get "size2x" }}
+
+{{ $original := .Page.Resources.GetMatch (.Get 0) }}
+{{ .Scratch.Set "original" $original }}
+{{ $image := .Scratch.Get "original" }}
+{{ .Scratch.Set "image" ($image.Fit $size) }}
+{{ .Scratch.Set "image2x" ($image.Fit $size2x) }}
+{{ $image := .Scratch.Get "image" }}
+{{ $image2x := .Scratch.Get "image2x" }}
+
+<img src="{{ $image.RelPermalink }}" srcSet="{{ $image2x.RelPermalink }} 2x" id="{{ $sizeOpt }}-image">
