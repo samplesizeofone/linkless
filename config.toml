@@ -1,4 +1,4 @@
-baseurl                 = "/"               # Your domain name. Must end with "/"
+baseurl                 = "http://linkless.org/"               # Your domain name. Must end with "/"
 title                   = "Tyler Spaeth"
 theme                   = "sam"
 
@@ -15,7 +15,7 @@ theme                   = "sam"
 
 # Metadata
     description         = "About Tyler Spaeth"            # Max 160 characters show in search results
-    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    twitterCard         = "summary"         # Card value “summary”, “summary_large_image”, “app”, or “player”
     primaryImage        = "/avatar.png"                     # Image that shows on Twitter cards and OpenGraph links
 
 [[params.mainMenu]]
