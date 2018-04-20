@@ -42,6 +42,7 @@
         margin-bottom: 1em
         line-height: 1.8
         letter-spacing: 1.5px
+        display: block
     & pre
         border-radius: 2px
         background-color: lighten($dark-grey, 10%)
@@ -94,7 +95,10 @@
     text-align: center
 
 #small-image
-    margin: 2rem !important
+    @media (min-width: 400px)
+        margin: 2rem !important
+    @media (max-width: 400px)
+        margin: 0 !important
 
 .grid
     display: grid
