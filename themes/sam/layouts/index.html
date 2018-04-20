@@ -1,1 +1,1 @@
-{{ partial "head.html" . }}<body><div class="section" id="splash">{{ range $index, $element := .Site.Params.mainMenu }}<div id="big-link"> <img src="/{{ add $index 1 }}.svg" id="number"> <a href="{{.link}}">{{.text}}</a></div>{{ end }}</div></body>
+{{ partial "head.html" . }}<body><div class="section" id="splash">{{ range $index, $element := .Site.Params.mainMenu }}<div id="big-link"> <img src="/numbers/{{ add $index 1 }}.svg" id="number"> <a href="{{.link}}">{{.text}}</a></div>{{ end }}</div></body>
