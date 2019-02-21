@@ -23,5 +23,7 @@
 {{ .Scratch.Set "image2x" ($image.Fit $size2x) }}
 {{ $image := .Scratch.Get "image" }}
 {{ $image2x := .Scratch.Get "image2x" }}
+{{ $caption := .Get 2 }}
 
-<img src="{{ $image.RelPermalink }}" srcSet="{{ $image2x.RelPermalink }} 2x" id="{{ $sizeOpt }}-image">
+<p>{{ if $caption }}{{ $caption }}<hr style="margin: -.75rem 0 1rem 0">{{ end }}</p>
+<img style="margin-top: 0 !important" src="{{ $image.RelPermalink }}" srcSet="{{ $image2x.RelPermalink }} 2x" id="{{ $sizeOpt }}-image">

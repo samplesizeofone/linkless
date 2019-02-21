@@ -1,4 +1,4 @@
-{{ partial "head.html" . }}<body><div class="wrap"><div class="section" id="title">{{ .Title }}</div><div class="section" id="content">{{ .Date.Format .Site.Params.dateform }} &#183; {{ .WordCount }} words
+{{ partial "head.html" . }}<body><div class="wrap"><div class="section" id="title">{{ .Title }}</div><div class="section" id="content">{{if .Params.showHeader }}{{ if .Params.showDate }}{{ .Date.Format .Site.Params.dateform }} &#183; {{ end }}{{ .WordCount }} words {{ end }}
 
 {{ with .Params.tags }}<div>{{ range . }}<span id="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{.}}</a></span>{{ end }}</div>{{ end }}<hr/><div>{{ .Content }}</div></div><div class="section bottom-menu"><hr/><p><a href="{{ .Section | relURL }}">Back</a> &#183;
 {{ range first 1 .Site.Params.mainMenu }}<a href="{{ .link }}">{{ .text }}</a>{{ end }}
